@@ -1,0 +1,14 @@
+{
+  "name": "dnt-unified",
+  "version": "1.0.0",
+  "description": "Unified interface for \"Do not track\" detection in Javascript for all browsers.",
+  "license": "MIT",
+  "repository": "remiq/dnt-unified",
+  "author": {
+    "name": "Remigiusz Jackowski",
+    "email": "remigiusz.jackowski@gmail.com"
+  },
+  "keywords": [
+    "dnt"
+  ]
+}
