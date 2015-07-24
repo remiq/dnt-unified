@@ -8,6 +8,25 @@ According to draft: http://www.w3.org/2011/tracking-protection/drafts/tracking-d
 
 ## Usage
 
-    var dnt = require('dnt-unified');
-    console.log(dnt(window)); // returns "1" (do not track) | "0" (do track) | null (not set in browser)
+### Browserify
 
+```js
+    var dnt = require('dnt-unified');
+    dnt(window); 
+    //=> "1"
+    // returns "1" (do not track) | "0" (do track) | null (not set in browser)
+```
+
+### RequireJS
+
+```js
+    define([
+        'library/dnt-unified/amd'
+    ], function(dnt) {
+        console.log(dnt(window));
+    });
+```
+
+## License
+
+MIT
